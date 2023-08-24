@@ -1,0 +1,15 @@
+.search-button {
+    @include no-border-outline;
+
+    aspect-ratio: 1;
+    background-color: $primary-color;
+    border-radius: 32px;
+    cursor: pointer;
+    height: 75%;
+    position: absolute;
+    right: 8px;
+    text-align: center;
+    text-decoration: none;
+    top: 4px;
+    z-index: 1;
+}

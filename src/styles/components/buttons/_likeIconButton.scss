@@ -1,0 +1,16 @@
+@import "../../abstracts/index";
+
+.like-icon-button {
+    @include no-border-outline;
+
+    aspect-ratio: 1;
+    background-color: #fff;
+    border-radius: 32px;
+    cursor: pointer;
+    position: absolute;
+    right: 8px;
+    text-align: center;
+    text-decoration: none;
+    top: 8px;
+    z-index: 1;
+}

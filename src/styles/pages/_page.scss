@@ -1,0 +1,6 @@
+.page {
+    @include flex-column;
+    @include font-regular;
+
+    height: "100vh";
+}

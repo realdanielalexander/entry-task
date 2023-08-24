@@ -1,0 +1,46 @@
+.pay-button {
+    @include no-border-outline;
+
+    align-self: center;
+    background-color: $primary-color;
+    border-radius: 32px;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    height: 60px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s;
+    width: 300px;
+
+    &__container {
+        align-items: center;
+        display: flex;
+    }
+
+    &__text-container {
+        @include center-horizontal-vertical;
+
+        aspect-ratio: 1;
+        background-color: #fff;
+        border-radius: 32px;
+        cursor: pointer;
+        position: absolute;
+        width: 48px;
+    }
+
+    // &:disabled {
+    //   background-color: #e5e5e5;
+    //   color: #ababab;
+    // }
+
+    // &:hover {
+    //   background-color: $secondary-color;
+    //   color: $secondary-text;
+    // }
+
+    // &:active {
+    //   background-color: green;
+    // }
+}

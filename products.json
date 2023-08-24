@@ -1,0 +1,122 @@
+{
+    "data": [
+        {
+            "id": 1,
+            "name": "Long Sleeve Shirt",
+            "price": 300000,
+            "image": "54df7ec29ad6a194d0de87c334a38978-removebg-preview.svg"
+        },
+        {
+            "id": 2,
+            "name": "Casual Henley Shirt",
+            "price": 250000,
+            "image": "66991d203bfd1ea71019a58df0246eff-removebg-preview.svg"
+        },
+        {
+            "id": 3,
+            "name": "Curved Hem Shirt",
+            "price": 250000,
+            "image": "0f76da755e29ab36163197ff151f8f97-removebg-preview.svg"
+        },
+        {
+            "id": 4,
+            "name": "Casual Nolin",
+            "price": 500000,
+            "image": "38221164115cc5fd74efdc4827b87cbf-removebg-preview.svg"
+        },
+        {
+            "id": 5,
+            "name": "Curved Hem Shirt",
+            "price": 100000,
+            "image": "68cd17f27199dff1d532cac5832aff02-removebg-preview 1.svg"
+        },
+        {
+            "id": 6,
+            "name": "Casual Nolin",
+            "price": 200000,
+            "image": "e908c80fff654f03ad00c2832c391f80-removebg-preview.svg"
+        },
+        {
+            "id": 7,
+            "name": "Long Sleeve Shirt",
+            "price": 300000,
+            "image": "54df7ec29ad6a194d0de87c334a38978-removebg-preview.svg"
+        },
+        {
+            "id": 8,
+            "name": "Curved Hem Shirt",
+            "price": 250000,
+            "image": "0f76da755e29ab36163197ff151f8f97-removebg-preview.svg"
+        },
+        {
+            "id": 9,
+            "name": "Casual Nolin",
+            "price": 500000,
+            "image": "38221164115cc5fd74efdc4827b87cbf-removebg-preview.svg"
+        },
+        {
+            "id": 10,
+            "name": "Curved Hem Shirt",
+            "price": 100000,
+            "image": "68cd17f27199dff1d532cac5832aff02-removebg-preview 1.svg"
+        }
+    ],
+    "transactions": [
+        {
+            "card_holder_name": "afasdfasd",
+            "card_number": "2131 2312 3131 2312",
+            "exp_date": "12/12",
+            "cvv": "123",
+            "id": 1
+        },
+        {
+            "card_holder_name": "Daniel Alexander",
+            "card_number": "1231 2312 3123 1231",
+            "exp_date": "12/12",
+            "cvv": "123",
+            "id": 2
+        },
+        {
+            "card_holder_name": "asdfadf1",
+            "card_number": "2311 2312 3123 1323",
+            "exp_date": "11/22",
+            "cvv": "123",
+            "id": 3
+        },
+        {
+            "card_holder_name": "Daniel Alexander",
+            "card_number": "1234 5678 1234 5678",
+            "exp_date": "12/25",
+            "cvv": "123",
+            "id": 4
+        },
+        {
+            "card_holder_name": "asdasd12312",
+            "card_number": "1231 2312 3123 1231",
+            "exp_date": "12/12",
+            "cvv": "123",
+            "id": 5
+        },
+        {
+            "card_holder_name": "asdfasdf",
+            "card_number": "1231 2312 3123 1231",
+            "exp_date": "11/22",
+            "cvv": "123",
+            "id": 6
+        },
+        {
+            "cardholder_name": "Acong Suherman",
+            "card_number": "1234 5678 1234 5678",
+            "exp_date": "12/25",
+            "cvv": "123",
+            "id": 7
+        },
+        {
+            "card_holder_name": "Daniel Alexander",
+            "card_number": "1234 5678 1234 5678",
+            "exp_date": "12/12",
+            "cvv": "123",
+            "id": 8
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+.content {
+    @include padding-x;
+    @include flex-column;
+
+    margin-top: 32px;
+}

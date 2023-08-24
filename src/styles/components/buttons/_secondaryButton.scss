@@ -1,0 +1,24 @@
+@import "../../abstracts/index";
+
+.secondary-button {
+    @include no-border-outline;
+
+    align-self: center;
+    background-color: #ffe9e2;
+    border-radius: 32px;
+    color: #f67952;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    height: 60px;
+    padding-top: 4px;
+    position: relative;
+    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
+    width: 300px;
+
+    &:disabled {
+        background-color: $button-disabled-background;
+        color: $button-disabled-color;
+    }
+}

@@ -1,0 +1,42 @@
+@import "../../abstracts/index";
+
+.google-login-button {
+    @include no-border-outline;
+
+    background-color: $primary-color;
+    border-radius: 32px;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 16px;
+    height: 48px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    width: 300px;
+
+    &__image {
+        @include center-horizontal-vertical;
+
+        background: #fff;
+        border-radius: 64px;
+        height: 48px;
+        left: -12px;
+        padding: 12px;
+        position: absolute;
+        top: -12px;
+        width: 48px;
+    }
+
+    &__text-container {
+        position: relative;
+    }
+
+    &__text {
+        font-size: 0.75rem;
+        left: 50px;
+        position: absolute;
+        right: 20px;
+        top: -4px;
+    }
+}

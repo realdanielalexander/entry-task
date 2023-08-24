@@ -1,0 +1,13 @@
+@import "../fonts";
+
+@mixin font-regular {
+    font-family: "Gordita Regular", sans-serif;
+    font-size: 0.75rem;
+}
+
+@mixin font-total-price {
+    font-family: "Gordita Regular", sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: right;
+}

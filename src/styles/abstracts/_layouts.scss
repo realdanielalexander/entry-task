@@ -1,0 +1,30 @@
+@mixin center-horizontal-vertical {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@mixin no-border-outline {
+    border: 0;
+    outline: 0;
+}
+
+@mixin flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin padding {
+    padding: 32px;
+}
+
+@mixin padding-x {
+    padding-left: 32px;
+    padding-right: 32px;
+}
+
+@mixin padding-y {
+    padding-bottom: 32px;
+    padding-top: 32px;
+}
